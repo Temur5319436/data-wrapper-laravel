@@ -78,7 +78,7 @@ return [
             'sslmode' => 'prefer',
         ],
 
-        'pgsql_main' => [
+        'remote-pgsql' => [
             'driver' => 'pgsql',
             'url' => env('DATABASE_URL'),
             'host' => env('DB_HOST', '127.0.0.1'),
@@ -89,7 +89,7 @@ return [
             'charset' => 'utf8',
             'prefix' => '',
             'prefix_indexes' => true,
-            'search_path' => env("MAIN_DATABASE_SCHEMA_NAME"),
+            'search_path' => env("DATABASE_SCHEMA_NAME"),
             'sslmode' => 'prefer',
         ],
 
