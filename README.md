@@ -17,7 +17,4 @@
 
   php artisan serve
 ```
-
-## Work
-http://127.0.0.1:8000/api/user/get-users
     
