@@ -4,7 +4,7 @@
 ## Installation ...
 
 ```bash
-  https://github.com/Temur5319436/data-wrapper-laravel.git
+  git clone https://github.com/Temur5319436/data-wrapper-laravel.git
 
   cd data-warpper-laravel
 
